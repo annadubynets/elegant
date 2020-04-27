@@ -158,38 +158,33 @@ h1 span {
     padding-bottom: 48px;
 }
 
-.blog-container {
-    position: relative;
-    background-image: url("../images/blog_item.png");
+.blog-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 84px;
 }
 
-.blog-position {
+.blog-item-img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-right-container {
     width: 50%;
-    position: relative;
-    left: 400px;
-    top: 0;
-    z-index: 1;
-    margin-top: 44px;
-    margin-bottom: 60px;
+}
+
+.blog-left-container {
+    background-color: #f9f9f9;
+    width: 50%;
 }
 
 .blog-margin {
     margin: auto;
     max-width: 326px;
-    padding-top: 28px;
-    padding-bottom: 28px;
-}
-
-.blog-container:after {
-    content: "";
-    display: block;
-    width: 50%;
-    position: absolute;
-    height: 100%;
-    background-color: #f9f9f9;
-    right: 0;
-    top: 0;
+    padding-top: 44px;
+    padding-bottom: 60px;
 }
 
 .blog-date-desc {
