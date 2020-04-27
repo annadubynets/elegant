@@ -1,0 +1,38 @@
+@media only screen and (max-width: 767px) {
+    .main-section {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .gallery-item {
+        width: 100%;
+    }
+
+    .people-container {
+        margin-bottom: 59px;
+        width: 100%;
+    }
+
+    .maps-container {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .footer-flex-container {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .address-footer-desc {
+        line-height: 36px;
+    }
+
+    .item-img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 320px) {}

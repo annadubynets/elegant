@@ -8,6 +8,7 @@
     <title>Elegant</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
 
 <body>
@@ -19,11 +20,11 @@
             <div class="overlay">
                 <nav class="overlayMenu">
                     <ul role="menu">
-                        <li><a href="#" role="menuitem">About Yourself</a></li>
-                        <li><a href="#" role="menuitem">Amazing Work</a></li>
-                        <li><a href="#" role="menuitem">People</a></li>
-                        <li><a href="#" role="menuitem">Blog</a></li>
-                        <li><a href="#" role="menuitem">Contact us</a></li>
+                        <li><a href="#" target="_blank" role="menuitem">About Yourself</a></li>
+                        <li><a href="#" target="_blank" role="menuitem">Amazing Work</a></li>
+                        <li><a href="#" target="_blank" role="menuitem">People</a></li>
+                        <li><a href="#" target="_blank" role="menuitem">Blog</a></li>
+                        <li><a href="#" target="_blank" role="menuitem">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -37,8 +38,7 @@
             <p class="who-we-are-desc">Who we Are</p>
             <h2 class="tell-world-heading">Tell The World About Yourself</h2>
             <p class="tell-world-desc">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.</p>
-            <a href="#" class="read-more-about-btn">Read More About Us</a>
-
+            <a href="#" target="_blank" class="read-more-about-btn">Read More About Us</a>
         </div>
     </div>
 
@@ -51,28 +51,28 @@
 
     <div class="gallery-flex-container">
         <div class="gallery-item">
-            <img src="images/gallery_item_1.png">
+            <img src="images/gallery_item_1.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_2.png">
+            <img src="images/gallery_item_2.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_3.png">
+            <img src="images/gallery_item_3.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_4.png">
+            <img src="images/gallery_item_4.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_5.png">
+            <img src="images/gallery_item_5.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_6.png">
+            <img src="images/gallery_item_6.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_7.png">
+            <img src="images/gallery_item_7.png" class="item-img">
         </div>
         <div class="gallery-item">
-            <img src="images/gallery_item_8.png">
+            <img src="images/gallery_item_8.png" class="item-img">
         </div>
     </div>
 
@@ -83,15 +83,15 @@
             <p class="tell-world-desc">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
             <div class="people-flex-container">
                 <div class="people-container">
-                    <img src="images/people_item_1.png">
+                    <img src="images/people_item_1.png" class="img-width">
                     <div class="people-position">
                         <p class="people-position-desc">ceo</p>
                         <p class="people-name-desc">Tobias Schneider</p>
-                        <p class="people-desc">Lorem ipsum dolor sit amet, conse <br>tetuer adi piscing elit, sed diam <br>nonummy nibh euismod tincidunt <br> ut laoreet dolore.</p>
+                        <p class="people-desc">Lorem ipsum dolor sit amet, conse <br>tetuer adi piscing elit, sed diam <br>nonummy nibh euismod tincidunt <br>ut laoreet dolore.</p>
                     </div>
                 </div>
                 <div class="people-container">
-                    <img src="images/people_item_2.png">
+                    <img src="images/people_item_2.png" class="img-width">
                     <div class="people-position">
                         <p class="people-position-desc">Designer</p>
                         <p class="people-name-desc">Jack Knife</p>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="people-container">
-                    <img src="images/people_item_3.png">
+                    <img src="images/people_item_3.png" class="img-width">
                     <div class="people-position">
                         <p class="people-position-desc">Developer</p>
                         <p class="people-name-desc">Ricki Hall</p>
@@ -120,12 +120,11 @@
                         <p class="blog-date-desc">14 September 2014</p>
                         <h3 class="space-heading">Change Your Space</h3>
                         <p class="space-desc">Typi non habent claritatem insitam; est usus <br>legentis in iis qui facit eorum claritatem. <br>Investigationes demonstraverunt lectores.</p>
-                        <a href="#" class="read-btn">Read</a>
+                        <a href="#" target="_blank" class="read-btn">Read</a>
                     </div>
                 </div>
             </div>
-
-            <a href="#" class="read-more-about-btn">More From Our Blog</a>
+            <a href="#" target="_blank" class="read-more-about-btn">More From Our Blog</a>
         </div>
     </div>
 
