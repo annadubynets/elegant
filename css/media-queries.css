@@ -35,6 +35,14 @@
         line-height: 36px;
     }
 
+    .normal-size {
+        display: none;
+    }
+
+    .mobile-size {
+        display: inline;
+    }
+
     .item-img {
         width: 100%;
         height: 100%;

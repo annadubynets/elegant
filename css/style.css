@@ -282,6 +282,14 @@ h1 span {
     line-height: 34px;
 }
 
+.normal-size {
+
+ }
+
+.mobile-size {
+    display: none;
+}
+
 footer {
     background-color: #eeeeee;
     padding: 41px 0px;
