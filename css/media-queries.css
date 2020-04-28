@@ -1,7 +1,58 @@
 @media only screen and (max-width: 767px) {
-    .main-section {
-        margin-left: 33px;
+
+    .caption-container {
+        background-color: #545a5b;
+        opacity: 80%;
+        height: 70px;
+    }
+
+    header {
+        background-image: url("../images/portfolio_bg_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .navBurger span {
+        display: none;
+    }
+
+    .portfolio-heading {
+        position: relative;
+        top: 150px;
+        font-size: 60px;
         margin-right: 33px;
+        margin-left: 33px;
+    }
+
+    .portfolio-heading:after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: "\f078";
+        display: block;
+        width: 61px;
+        height: 61px;
+        color: #ffffff;
+        line-height: 61px;
+        font-size: 13px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 120%;
+        left: 45%;
+        margin-top: -25px;
+        margin-right: -25px;
+    }
+
+    .main-section {
+        margin: 40px 33px;
+
+    }
+
+    .gallery-flex-container {
+        margin-bottom: 40px;
     }
 
     .gallery-item {
@@ -21,9 +72,22 @@
         width: 100%;
     }
 
+    .blog-margin {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .maps-container {
         margin-left: 33px;
         margin-right: 33px;
+    }
+
+    .location-desc {
+        font-size: 10px;
+    }
+
+    .address-desc {
+        font-size: 15px;
     }
 
     .footer-flex-container {
@@ -32,6 +96,7 @@
     }
 
     .address-footer-desc {
+        font-size: 13px;
         line-height: 36px;
     }
 
@@ -49,6 +114,38 @@
     }
 }
 
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+
+    .portfolio-heading {
+        font-size: 50px;
+    }
+
+    .location-flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .second-location-flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .location-desc {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        padding: 21px 0;
+    }
+
+    .address-footer-desc {
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
 @media only screen and (max-width: 360px) {}
 @media only screen and (max-width: 320px) {}
