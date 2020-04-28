@@ -6,6 +6,10 @@
         height: 70px;
     }
 
+    .overlay {
+        background: #545a5b;
+    }
+
     header {
         background-image: url("../images/portfolio_bg_mobile.png");
         background-repeat: no-repeat;
