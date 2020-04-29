@@ -5,6 +5,12 @@
         height: 70px;
     }
 
+    .go-to-bottom:after {
+        position: absolute;
+        top: 900%;
+        left: 45%;
+    }
+
     .overlay {
         background: #545a5b;
     }
@@ -48,26 +54,6 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .caption-container:after {
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
-        content: "\f078";
-        display: block;
-        width: 61px;
-        height: 61px;
-        color: #ffffff;
-        text-align: center;
-        line-height: 61px;
-        font-size: 15px;
-        border: 2px solid #ffffff;
-        border-radius: 50%;
-        position: absolute;
-        top: 700%;
-        left: 45%;
-        margin-top: -25px;
-        margin-right: -25px;
-
-    }
 
     footer {
         padding: 21px 0;
