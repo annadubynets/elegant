@@ -1,0 +1,59 @@
+@media only screen and (max-width: 767px) {
+    header{
+        background-image: none;
+        height: 0;
+    }
+
+    .caption-container {
+        background-color: #545a5b;
+        opacity: 80%;
+        height: 70px;
+    }
+
+    .overlay {
+        background: #545a5b;
+    }
+
+    .navBurger span {
+        display: none;
+    }
+
+    .main-container {
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+
+    .post-img {
+        width: 100%;
+    }
+
+    .post-flex-container {
+        padding-bottom: 63px;
+    }
+
+    .footer-flex-container {
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+
+    .address-footer-desc {
+        font-size: 13px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    footer {
+        padding: 21px 0;
+    }
+
+    .address-footer-desc {
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 360px) {}
+
+@media only screen and (max-width: 320px) {}
