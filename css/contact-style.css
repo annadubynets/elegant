@@ -1,0 +1,63 @@
+header {
+    background-image: url("../images/contact_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-section {
+    margin-top: 129px;
+    margin-bottom: 86px;
+}
+
+.contact-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.address-container {
+    background-color: #d3b000;
+    padding-right: 50px;
+}
+
+.address-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 32px;
+    padding: 31px;
+}
+
+.address-desc:before {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 31px;
+    height: 3px;
+    margin-bottom: 47px;
+}
+
+.telephone-container {
+    background-color: #f9f9f9;
+}
+
+.telephone-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #323d43;
+    line-height: 32px;
+    padding: 48px;
+}
+
+.telephone-second-container {
+    background-color: #212121;
+}
+
+.read-more-about-btn {
+    margin-top: 77px;
+}
