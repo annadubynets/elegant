@@ -16,6 +16,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .address-container {
@@ -23,7 +24,7 @@ header {
     padding-right: 50px;
 }
 
-.address-desc {
+.address-contact-desc {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 25px;
@@ -32,7 +33,7 @@ header {
     padding: 31px;
 }
 
-.address-desc:before {
+.address-contact-desc:before {
     content: "";
     display: block;
     background-color: #ffffff;

@@ -1,8 +1,4 @@
 @media only screen and (max-width: 767px) {
-    header{
-        background-image: none;
-        height: 0;
-    }
 
     .caption-container {
         background-color: #545a5b;
@@ -21,27 +17,40 @@
     .main-container {
         margin-right: 33px;
         margin-left: 33px;
+        margin-bottom: 33px;
+        padding-bottom: 29px;
     }
 
-    .post-img {
+    .social-flex-container {
+        display: none;
+    }
+
+    .project-heading {
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+
+    .project-text {
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+
+    .project-item-img {
+        width: 100%;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-flex-container {
         width: 100%;
     }
 
     .post-flex-container {
-        padding-bottom: 63px;
-    }
-
-    .project-flex-container {
-        width: 100%;
-    }
-
-    .project-flex-container {
-        width: 100%;
-    }
-
-    .recent-posts {
-        margin-right: 33px;
-        margin-left: 33px;
+        padding-bottom: 29px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .footer-flex-container {

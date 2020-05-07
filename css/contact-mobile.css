@@ -18,30 +18,26 @@
         display: none;
     }
 
-    .main-container {
-        margin-right: 33px;
-        margin-left: 33px;
+    .contact-flex-container {
+        margin-right: 39px;
+        margin-left: 39px;
     }
 
-    .post-img {
+    .address-container{
         width: 100%;
     }
 
-    .post-flex-container {
-        padding-bottom: 63px;
+    .contact-item-img {
+        width: 100%;
+        height: 100%;
     }
 
-    .project-flex-container {
+    .telephone-container {
         width: 100%;
     }
 
-    .project-flex-container {
+    .telephone-second-container {
         width: 100%;
-    }
-
-    .recent-posts {
-        margin-right: 33px;
-        margin-left: 33px;
     }
 
     .footer-flex-container {
