@@ -21,6 +21,7 @@
     .main-container {
         margin-right: 33px;
         margin-left: 33px;
+        margin-top: 0;
     }
 
     .post-img {
@@ -35,13 +36,21 @@
         width: 100%;
     }
 
-    .project-flex-container {
+    .project-img {
+        width: 100%;
+    }
+
+    .post-desc:after {
         width: 100%;
     }
 
     .recent-posts {
         margin-right: 33px;
         margin-left: 33px;
+    }
+
+    .title-of-post {
+        padding-top: 98px;
     }
 
     .footer-flex-container {
@@ -67,6 +76,7 @@
     }
 }
 
-@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 360px) {
+}
 
 @media only screen and (max-width: 320px) {}

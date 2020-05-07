@@ -14,6 +14,12 @@
         display: none;
     }
 
+    .go-to-bottom:after {
+        position: absolute;
+        top: 900%;
+        left: 45%;
+    }
+
     .main-container {
         margin-right: 33px;
         margin-left: 33px;

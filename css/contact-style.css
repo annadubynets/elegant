@@ -21,7 +21,6 @@ header {
 
 .address-container {
     background-color: #d3b000;
-    padding-right: 50px;
 }
 
 .address-contact-desc {
@@ -30,7 +29,7 @@ header {
     font-size: 25px;
     color: #ffffff;
     line-height: 32px;
-    padding: 31px;
+    padding: 31px 81px 31px 31px;
 }
 
 .address-contact-desc:before {
@@ -53,6 +52,24 @@ header {
     color: #323d43;
     line-height: 32px;
     padding: 48px;
+}
+
+.telephone-contact-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 32px;
+    padding: 31px;
+}
+
+.telephone-contact-desc:before {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 31px;
+    height: 3px;
+    margin-bottom: 47px;
 }
 
 .telephone-second-container {
