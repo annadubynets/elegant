@@ -289,12 +289,6 @@ h1 span {
   padding-top: 44px;
   padding-bottom: 60px;
 }
-@media screen and (max-width: 767px) {
-  .blog-margin {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
 
 .blog-date-desc {
   font-family: "Open Sans", sans-serif;
